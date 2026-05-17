@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        .h-10 {
+            height: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Sifat!</h1>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form class="row g-2">
+                    <div class="col-auto">
+                        <label for="name" class="visually-hidden">Name</label>
+                        <input type="text" name="" id="name" class="form-control from-control-sm"
+                            placeholder="Your Name">
+                    </div>
+                    <div class="col-auto">
+                        <label for="user_name" class="visually-hidden">Username</label>
+                        <div class="input-group ">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <label for="Country" id="Country" class="visually-hidden">Select</label>
+                        <select name="" id="Country" class="form-select">
+                            <option selected>Select...</option>
+                            <option value="One">One</option>
+                            <option value="Two ">Two</option>
+                            <option value="Three">Three</option>
+                        </select>
+
+                    </div>
+                    <div class="w-100 m-0"></div>
+                    <div class="col-auto">
+                        <input type="checkbox" id="remember-me" class="form-check-input">
+                        <label for="remember-me" class="form-check-label">Remember me</label>
+                    </div>
+                    <div class="col-auto">
+                        <input type="submit" class="btn btn-success btn-sm" value="Sign Up to continue">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
