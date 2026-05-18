@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        .h-10 {
+            height: 10rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Sifat!</h1>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">Off Canvas navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#off-canvas-navbar"
+                aria-expanded="false" aria-level="Toggle Navigation" aria-controls="off-canvas-navbar">
+                <span class="navbar-toggler-icon"></span></button>
+            <div class="offcanvas offcanvas-end" id="off-canvas-navbar" tabindex="-1">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Off Canvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle " id="navbar-dropdown-link" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false"
+                                data-bs-auto-close="outside">Dropdown</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-link">
+                                <li><a href="#" class="dropdown-item">Action</a></li>
+                                <li><a href="#" class="dropdown-item">Another</a></li>
+                                <li><a href="#" class="dropdown-item">Hi</a></li>
+                                <li class="dropdown dropend">
+                                    <a href="#" class="dropdown-item dropdown-toggle" id="navbar-dropdown-list-deep-1"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">Nested
+                                        Dropdown</a>
+                                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbar-dropdown-link">
+                                        <li><a href="#" class="dropdown-item">Action</a></li>
+                                        <li><a href="#" class="dropdown-item">Another</a></li>
+                                        <li><a href="#" class="dropdown-item">Hi</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Content</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
