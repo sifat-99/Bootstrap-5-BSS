@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        .h-10 {
+            height: 10rem;
+        }
+
+        .top-spacing {
+            margin-top: 20%;
+        }
+
+        .custom-popover {
+            --bs-popover-max-width: 200px;
+            --bs-popover-border-color: var(--bs-primary);
+            --popover-header-bg: var(--bs-peimary);
+            --popover-header-color: var(--bs-whire);
+            --popover-body-padding-x: 1rem;
+            --popover-body-padding-y: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Sifat!</h1>
+
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <button type="button" class="btn btn-primary" title="Popover Title" data-bs-toggle="popover"
+                    data-bs-content="This is content" data-bs-custom-class="custom-popover">
+                    Popover
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="enable-stuff.js"></script>
+</body>
+
+</html>
